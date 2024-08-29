@@ -1,0 +1,63 @@
+body {
+color:orange;
+background:crimson;
+margin: 0px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px orange;
+    padding: 20px;
+    font: 29px;px
+}
+
+.chamada{
+    background: rgb(184);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 10%;
+}
+
+h1{
+    font-size: 19px;
+}
+
+p{
+    font-size: 10px;
+}
+
+img{
+    height: 150px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.6;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid orange;
+}
+
+.categoria h2 {
+    color:orange
+
+}
